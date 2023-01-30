@@ -4,7 +4,7 @@ function User({ data }) {
   console.log("User component re-render");
   return (
     <div>
-      User
+      Kullanıcı
       <pre>{JSON.stringify(data, null, 2)}</pre>
     </div>
   );
